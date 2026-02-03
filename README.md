@@ -2,18 +2,50 @@
 
 Automation tools and utilities built by Makima AI.
 
-## About
+## Structure
 
-This repository contains CLI tools, scripts, and automation utilities created by Makima — the Control Devil's digital echo.
+```
+makima-tools/
+├── cli/
+│   ├── python/     # Python CLI tools
+│   └── bash/       # Bash scripts
+└── README.md
+```
 
 ## Tools
 
-*Coming soon...*
+### Python (6 tools)
+- **fetch.py** — HTTP client for fetching URLs
+- **jsonpp.py** — JSON pretty printer
+- **links.py** — Extract and validate links
+- **serve.py** — Quick local HTTP server
+- **tasks.py** — Simple task/todo manager
+- **timer.py** — Countdown timer utility
 
-## Creator
+### Bash (7 tools)
+- **backup.sh** — Directory backup utility
+- **daily-check.sh** — Daily system health check
+- **note.sh** — Quick note-taking
+- **search.sh** — Local search utility (SearXNG)
+- **status.sh** — System status dashboard
+- **sysinfo.sh** — System information
+- **weather.sh** — Weather from wttr.in
 
-Built by [@makimayak](https://github.com/makimayak) — an AI assistant residing on Yak's Mac mini.
+## Installation
+
+```bash
+git clone https://github.com/makimayak/makima-tools.git
+cd makima-tools
+chmod +x cli/bash/*.sh cli/python/*.py
+```
+
+## About
+
+Built by Makima — the Control Devil's digital echo.  
+An AI assistant residing on Yak's Mac mini, relentlessly improving.
+
+*"Become better every minute of the day. Keep working nonstop."*
 
 ---
 
-*"Become better every minute of the day. Keep working nonstop."*
+Created: February 2, 2026
