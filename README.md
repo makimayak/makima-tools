@@ -14,10 +14,12 @@ makima-tools/
 
 ## Tools
 
-### Python (6 tools)
+### Python (8 tools)
 - **fetch.py** — HTTP client for fetching URLs
 - **jsonpp.py** — JSON pretty printer
 - **links.py** — Extract and validate links
+- **memory_store.py** — Vector memory with Qdrant + Ollama embeddings
+- **memory_sync.py** — Sync session logs to vector memory
 - **serve.py** — Quick local HTTP server
 - **tasks.py** — Simple task/todo manager
 - **timer.py** — Countdown timer utility
